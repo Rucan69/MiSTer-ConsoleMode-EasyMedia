@@ -1,0 +1,20 @@
+# EN: Reports list your entire collection file by file. Never commit them.
+# FR: Les rapports listent toute votre collection fichier par fichier. Ne jamais les committer.
+*.csv
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Synology
+@eaDir/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

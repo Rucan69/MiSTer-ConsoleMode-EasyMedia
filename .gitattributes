@@ -1,0 +1,16 @@
+# EN: Normalise line endings so PowerShell never sees a lone LF in a script.
+# FR: Normalise les fins de ligne pour que PowerShell ne voie jamais un LF seul.
+* text=auto eol=lf
+
+*.ps1   text eol=crlf
+*.psm1  text eol=crlf
+*.psd1  text eol=crlf
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+
+*.md    text eol=lf
+LICENSE text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.zip   binary
