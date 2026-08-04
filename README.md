@@ -28,16 +28,18 @@ Moving the files does not help: the mark is an NTFS alternate data stream that f
 
 ## What problem this solves
 
-Zaparoo and the console mode frontend both want artwork, but they name it differently.
+1 /Taki's source for media is not Screenscraper !
 
-Zaparoo stores artwork under the game's **catalogue title**, in a Recalbox style tree:
+2 /Zaparoo and the console mode frontend both want artwork, but they name it differently.
+
+3/ Zaparoo stores artwork under the game's **catalogue title**, in a Recalbox style tree:
 
 ```
 media/box2d/Lunch Time.png
 media/screenshot/Lunch Time.png
 ```
 
-Console mode wants it under the **exact ROM file name**, flat, with a `-BG` suffix for the background:
+4/ Console mode wants it under the **exact ROM file name**, flat, with a `-BG` suffix for the background:
 
 ```
 media/Lunch Time (USA) (GameCube).png
